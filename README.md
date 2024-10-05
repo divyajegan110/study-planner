@@ -1,51 +1,70 @@
+# Getting Started with Create React App
 
-Study Manager app for students and Home Page
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple to-do application that allows users to manage tasks with priority levels and images. The project includes a home page with buttons linking to different functionalities and a study manager section to organize and prioritize tasks.
+## Available Scripts
 
-Features
+In the project directory, you can run:
 
-- Add and manage tasks: Users can add tasks with optional priority levels (high, medium, low) and attach images to tasks.
-- Mark tasks as completed: Tasks can be marked as completed, with a strikethrough effect applied to the task name.
-- Filter tasks: Users can filter tasks by priority levels.
-- Task images: Users can attach an image to each task, which will be displayed next to the task.
-- Interactive buttons: The home page includes two large, blue buttons that lead to different sections of the app. They are centered and responsive.
+### `npm start`
 
-Technology stack
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- HTML5
-- CSS3
-- JavaScript
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Prerequisites
+### `npm test`
 
-To run the application, you need a web browser that supports HTML5, CSS, and JavaScript.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Installation
+### `npm run build`
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-repo/todo-app.git
-   ```
-2. Open the `index.html` file in your browser.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Project structure
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- `index.html`: The main HTML file.
-- `app.css`: The stylesheet containing styles for the home page, to-do list, and study manager section.
-- `app.js`: JavaScript file to manage tasks, buttons, and filters.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Usage
+### `npm run eject`
 
-1. Launch the app by opening `index.html` in your browser.
-2. Add tasks in the to-do section, assign priority levels, and attach images if needed.
-3. Use the buttons on the home page to navigate between functionalities.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Customization
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- You can modify the colors, fonts, and layout by editing `app.css`.
-- Add additional functionality or features by updating `app.js`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-License
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This project is open-source and free to use under the MIT license.
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
